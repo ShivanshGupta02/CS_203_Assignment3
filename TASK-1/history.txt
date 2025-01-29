@@ -1,0 +1,61 @@
+    1  history
+    2  cls
+    3  clear
+    4  sudo apt list | grep -i python3.10
+    5  clear
+    6  sudo apt list | grep -i python3.10
+    7  wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
+    8  python3.10.16 -m pip --version
+    9  sudo find / -name "python3.10.16" 2>/dev/null
+   10  cd Python-3.10.16
+   11  tar -xvzf Python3.10.16.tgz
+   12  tar -xvzf Python-3.10.16.tgz
+   13  python -V
+   14  pip -V
+   15  python3 -V
+   16  sudo apt list | grep -i python3.10
+   17  cd Python-3.10.16
+   18  python 3 -V
+   19  python3 -V
+   20  ./configure
+   21  sudo apt install build-essential
+   22  ./ python3 -V
+   23  sudo apt update
+   24  sudo apt install -y     build-essential     zlib1g-dev     libncurses5-dev     libgdbm-dev     libnss3-dev     libssl-dev     libsqlite3-dev     libreadline-dev     libffi-dev     curl     libbz2-dev     liblzma-dev     libuuid1     tk-dev
+   25  ./configure
+   26  sudo make altinstall
+   27  python3 -V
+   28  python3.10 -V
+   29  python3.10 -m ensurepip --upgrade
+   30  python 3.10 -m pip install --upgrade pip
+   31  python3.10 -m pip install --upgrade pip
+   32  sudo apt install python3.10-venv
+   33  sudo apt install python3.10.16-venv
+   34  sudo apt install Python-3.10.16-venv
+   35  cd ../python_3_10/bin
+   36  cd ..
+   37  ls
+   38  cd Python-3.10.16
+   39  cd bin
+   40  ls
+   41  sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev     libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev     libbz2-dev liblzma-dev libuuid1 tk-dev
+   42  make clean
+   43  sudo rm -rf ./build
+   44* 
+   45  sudo find . -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.o' -o -name '*.a' \) -exec rm -f {} +
+   46  find . -name '__pycache__'
+   47  find . -name '*.py[co]'
+   48  find . -name '*.[oa]'
+   49  sudo find . -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.o' -o -name '*.a' \) -exec rm -f {} +
+   50  find . -name '__pycache__'
+   51  ./configure
+   52  make
+   53  python3.10 -m venv --help
+   54  python3.10 -m venv my_env
+   55  source my_env/bin/activate
+   56  sudo apt install python3.10-dev
+   57  pip install --upgrade pip 
+   58  pip install label-studio
+   59  label-studio --version
+   60  pwd
+   61  history > ../Desktop/history.txt

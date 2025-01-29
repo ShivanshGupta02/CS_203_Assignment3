@@ -1,0 +1,64 @@
+1. `history` - Displays a list of previously executed commands.
+2. `cls` - Clears the terminal screen (Windows command, may not work on Linux).
+3. `clear` - Clears the terminal screen (Linux equivalent of `cls`).
+4. `sudo apt list | grep -i python3.10` - Lists installed packages and filters for Python 3.10.
+5. `clear` - Clears the terminal screen again.
+6. `sudo apt list | grep -i python3.10` - Repeats listing installed Python 3.10 packages.
+7. `wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz` - Downloads the Python 3.10.16 source code.
+8. `python3.10.16 -m pip --version` - Checks the version of `pip` (may fail if Python 3.10.16 isn't installed).
+9. `sudo find / -name "python3.10.16" 2>/dev/null` - Searches for the Python 3.10.16 installation directory while suppressing errors.
+10. `cd Python-3.10.16` - Changes directory to Python-3.10.16 (may fail if the directory doesn't exist).
+11. `tar -xvzf Python3.10.16.tgz` - Extracts the Python archive (incorrect filename, should be `Python-3.10.16.tgz`).
+12. `tar -xvzf Python-3.10.16.tgz` - Correct extraction command.
+13. `python -V` - Checks the Python version.
+14. `pip -V` - Checks the installed version of `pip`.
+15. `python3 -V` - Checks the installed version of Python 3.
+16. `sudo apt list | grep -i python3.10` - Lists installed packages related to Python 3.10.
+17. `cd Python-3.10.16` - Moves into the Python 3.10.16 directory.
+18. `python 3 -V` - Incorrect command (should be `python3 -V`).
+19. `python3 -V` - Checks the installed version of Python 3.
+20. `./configure` - Prepares the Python source code for compilation.
+21. `sudo apt install build-essential` - Installs essential build tools for compiling software.
+22. `./ python3 -V` - Incorrect syntax (should be `python3 -V`).
+23. `sudo apt update` - Updates package lists for `apt`.
+24. `sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev liblzma-dev libuuid1 tk-dev` - Installs required dependencies for building Python.
+25. `./configure` - Configures the Python source for compilation.
+26. `sudo make altinstall` - Compiles and installs Python without overwriting the default `python` binary.
+27. `python3 -V` - Checks the installed version of Python 3.
+28. `python3.10 -V` - Checks the installed version of Python 3.10.
+29. `python3.10 -m ensurepip --upgrade` - Ensures `pip` is installed and upgraded.
+30. `python 3.10 -m pip install --upgrade pip` - Incorrect syntax (should be `python3.10 -m pip install --upgrade pip`).
+31. `python3.10 -m pip install --upgrade pip` - Correct command to upgrade `pip`.
+32. `sudo apt install python3.10-venv` - Installs the virtual environment module for Python 3.10.
+33. `sudo apt install python3.10.16-venv` - Attempts to install `python3.10.16-venv` (may fail if not available).
+34. `sudo apt install Python-3.10.16-venv` - Incorrect capitalization (package names are case-sensitive).
+35. `cd ../python_3_10/bin` - Moves into the `bin` directory of Python 3.10 (may fail if the path is incorrect).
+36. `cd ..` - Moves one directory up.
+37. `ls` - Lists files in the current directory.
+38. `cd Python-3.10.16` - Moves back into the Python 3.10.16 directory.
+39. `cd bin` - Moves into the `bin` directory.
+40. `ls` - Lists files in the `bin` directory.
+41. `sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev liblzma-dev libuuid1 tk-dev` - Reinstalls necessary dependencies.
+42. `make clean` - Cleans up build files before recompilation.
+43. `sudo rm -rf ./build` - Forcefully removes the `build` directory.
+44. *(empty command, possibly an accidental entry)*
+45. `sudo find . -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.o' -o -name '*.a' \) -exec rm -f {} +` - Finds and deletes compiled Python and object files.
+46. `find . -name '__pycache__'` - Finds Python `__pycache__` directories.
+47. `find . -name '*.py[co]'` - Finds compiled Python files (`.pyc`, `.pyo`).
+48. `find . -name '*.[oa]'` - Finds object files (`.o`) and archive files (`.a`).
+49. `sudo find . -type f \( -name '*.pyc' -o -name '*.pyo' -o -name '*.o' -o -name '*.a' \) -exec rm -f {} +` - Repeats cleanup of compiled files.
+50. `find . -name '__pycache__'` - Repeats search for `__pycache__` directories.
+51. `./configure` - Reconfigures Python source before compilation.
+52. `make` - Compiles Python from source.
+53. `python3.10 -m venv --help` - Shows help for creating virtual environments.
+54. `python3.10 -m venv my_env` - Creates a virtual environment named `my_env`.
+55. `source my_env/bin/activate` - Activates the virtual environment.
+56. `sudo apt install python3.10-dev` - Installs Python 3.10 development files.
+57. `pip install --upgrade pip` - Upgrades `pip` inside the virtual environment.
+58. `pip install label-studio` - Installs `label-studio`, a data annotation tool.
+59. `label-studio --version` - Checks the installed version of `label-studio`.
+60. `pwd` - Prints the current working directory.
+61. `history > ../Desktop/history.txt` - Saves the command history to a file named `history.txt` on the Desktop.
+
+
+
